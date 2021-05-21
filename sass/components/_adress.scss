@@ -1,0 +1,41 @@
+.head-adress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    display: inline-flex;
+    
+}
+
+.head-adress li {
+    margin-right: 50px;
+}
+
+.head-adress li:last-child {
+    margin-right: 0;
+}
+
+.head-link {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.head-link:hover,
+.head-link:focus {
+    color: #2196F3;
+}
+
+.svg-icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
