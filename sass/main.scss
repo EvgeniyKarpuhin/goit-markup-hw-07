@@ -12,35 +12,7 @@
 
 @import "./components/title";
 
-.social-modern {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 32px;
-    
-}
-
-.social-size {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    height: 44px;
-    width: 44px;
-    color: #AFB1B8;
-    transition-property: color, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-size:hover,
-.social-size:focus {
-    color: white;
-    background-color: #2196F3
-}
-
-.soc-icons {
-    fill: currentColor;
-}
+@import "./components/social";
 
 @import "./components/btn";
 
@@ -148,44 +120,7 @@
     text-align: center;
 }
 
-.bottoms {
-    margin-bottom: 50px;
-}
 
-.bottoms li {
-    display: inline-flex;
-    margin-right: 8px;
-}
-
-.bottoms li:last-child {
-    margin-right: 0;
-}
-
-.filters-btn {
-    font-family: 'Roboto', sans-serif;
-    background: #F5F4FA;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-    color: #212121;
-    padding: 6px 22px;
-    transition-property: color, background-color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-
-.filters-btn:hover,
-.filters-btn:focus {
-    background: #2196F3;
-    color: white;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
 
 .wrap-box {
     display: flex;
