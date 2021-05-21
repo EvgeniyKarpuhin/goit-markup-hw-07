@@ -2,21 +2,7 @@
 @import "./base/container";
 
 
-.head {
-    background: white;
-}
-
-.test {
-    border-bottom: 1px solid #ECECEC;
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
-
-.test .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+@import "./components/head";
 
 @import "./components/logo";
 
