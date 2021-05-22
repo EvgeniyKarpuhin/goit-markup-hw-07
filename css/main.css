@@ -171,7 +171,7 @@ ul {
   color: #2196F3;
 }
 
-.head-adress {
+.head__adress {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -180,15 +180,15 @@ ul {
   display: inline-flex;
 }
 
-.head-adress li {
+.head__adress li {
   margin-right: 50px;
 }
 
-.head-adress li:last-child {
+.head__adress li:last-child {
   margin-right: 0;
 }
 
-.head-link {
+.head__link {
   display: flex;
   align-items: center;
   font-family: 'Roboto', sans-serif;
@@ -202,8 +202,8 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.head-link:hover,
-.head-link:focus {
+.head__link:hover,
+.head__link:focus {
   color: #2196F3;
 }
 
