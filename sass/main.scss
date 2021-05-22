@@ -20,24 +20,10 @@
 
 @import "./layout/info";
 
-
-
 @import "./layout/pictures";
 
-.text {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.19;
-    margin-bottom: 16px;
-}
 
-
-
-.main-type-team {
-    width: 100%;
-    display: inline-flex;
-    justify-content: space-between;
-}
+@import "./layout/foot";
 
 
 .main-container {
