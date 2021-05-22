@@ -16,81 +16,13 @@
 
 @import "./components/btn";
 
-.section {
-    padding-bottom: 94px;
-}
+@import "./components/sections";
 
-.decision {
-    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),url(../images/social/Img-logo-head.png);
-    background-repeat: no-repeat;
-    text-align: center;
-    padding: 200px 0;
-    max-width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
-}
+@import "./layout/info";
 
-.info {
-    padding-top: 94px;
-    background-color: white;
-}
 
-.section h2 {
-    margin-bottom: 50px;
-}
 
-.main-type {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.main-list {
-    position: relative;
-    height: 294px;
-}
-
-.main-section {
-    width: 100%;
-    height: 120px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.name-title {
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-}
-
-.pictures {
-    background-color: white;
-}
-
-.comp-text {
-    position: absolute;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    background-color: rgba(47, 48, 58, 0.8);
-    padding-top: 27px;
-    padding-bottom: 27px;
-    bottom: 0;
-    width: 100%;
-}
-
-.comp-text p {
-    color: #FFFFFF;
-}
+@import "./layout/pictures";
 
 .text {
     font-style: normal;
@@ -99,10 +31,7 @@
     margin-bottom: 16px;
 }
 
-.foot {
-    padding-top: 94px;
-    background-color: #F5F4FA;
-}
+
 
 .main-type-team {
     width: 100%;

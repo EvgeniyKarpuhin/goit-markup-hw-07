@@ -327,6 +327,15 @@ ul {
   background-color: white;
 }
 
+.pictures {
+  background-color: white;
+}
+
+.foot {
+  padding-top: 94px;
+  background-color: #F5F4FA;
+}
+
 .section h2 {
   margin-bottom: 50px;
 }
@@ -360,10 +369,6 @@ ul {
   text-transform: uppercase;
 }
 
-.pictures {
-  background-color: white;
-}
-
 .comp-text {
   position: absolute;
   font-style: normal;
@@ -389,11 +394,6 @@ ul {
   font-size: 16px;
   line-height: 1.19;
   margin-bottom: 16px;
-}
-
-.foot {
-  padding-top: 94px;
-  background-color: #F5F4FA;
 }
 
 .main-type-team {
