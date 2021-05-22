@@ -10,7 +10,7 @@
     margin-right: 0;
 }
 
-.nav-website-link {
+.head__website-link {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.14;
@@ -20,7 +20,7 @@
     color: #2196F3;
 }
 
-.nav-website-link::after {
+.head__website-link::after {
     content: "";
     position: absolute;
     display: block;
@@ -31,7 +31,7 @@
     background-color: #2196F3;
 }
 
-.nav-website {
+.head__website {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.14;
@@ -43,7 +43,7 @@
 }
 
 
-.nav-website:hover,
-.nav-website:focus {
+.head__website:hover,
+.head__website:focus {
     color: #2196F3;
 }

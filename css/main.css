@@ -91,7 +91,7 @@ ul {
   justify-content: space-between;
 }
 
-.nav {
+.head__nav {
   display: inline-flex;
   align-items: center;
 }
@@ -134,7 +134,7 @@ ul {
   margin-right: 0;
 }
 
-.nav-website-link {
+.head__website-link {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.14;
@@ -144,7 +144,7 @@ ul {
   color: #2196F3;
 }
 
-.nav-website-link::after {
+.head__website-link::after {
   content: "";
   position: absolute;
   display: block;
@@ -155,7 +155,7 @@ ul {
   background-color: #2196F3;
 }
 
-.nav-website {
+.head__website {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.14;
@@ -166,8 +166,8 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-website:hover,
-.nav-website:focus {
+.head__website:hover,
+.head__website:focus {
   color: #2196F3;
 }
 
