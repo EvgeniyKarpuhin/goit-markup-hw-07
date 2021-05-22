@@ -851,7 +851,7 @@ ul {
   outline: none;
 }
 
-textarea::placeholder {
+.textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 
