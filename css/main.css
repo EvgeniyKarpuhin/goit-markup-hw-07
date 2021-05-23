@@ -320,20 +320,20 @@ ul {
   cursor: pointer;
 }
 
-.bottoms {
+.filters__bottoms {
   margin-bottom: 50px;
 }
 
-.bottoms li {
+.filters__bottoms li {
   display: inline-flex;
   margin-right: 8px;
 }
 
-.bottoms li:last-child {
+.filters__bottoms li:last-child {
   margin-right: 0;
 }
 
-.filters-btn {
+.filters__btn {
   font-family: 'Roboto', sans-serif;
   background: #F5F4FA;
   cursor: pointer;
@@ -351,8 +351,8 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filters-btn:hover,
-.filters-btn:focus {
+.filters__btn:hover,
+.filters__btn:focus {
   background: #2196F3;
   color: white;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
