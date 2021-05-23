@@ -1,16 +1,16 @@
-.mail-input {
+.footer__mail {
     margin-left: 108px;  
 }
 
-.mail-input h4 {
+.footer__mail h4 {
     margin-top: 10px;
 }
 
-.input-text {
+.footer__input-text {
     margin-top: 20px;
 }
 
-.mail-type-input {
+.footer__mail-type {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -23,7 +23,7 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.mail-type-input::placeholder {
+.footer__mail-type::placeholder {
     font-style: normal;
     font-size: 16px;
     line-height: 1.25;
@@ -31,6 +31,6 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-.mail-type-input:focus-within {
+.footer__mail-type:focus-within {
     outline: none;
 }
