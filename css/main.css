@@ -872,7 +872,7 @@ ul {
   color: #2196F3;
 }
 
-.checkbox:checked + .check {
+.form__checkbox:checked + .form__check {
   background-image: url(../images/social/svg/vector.svg);
   background-repeat: no-repeat;
   background-color: #2196F3;
@@ -892,7 +892,7 @@ ul {
   margin: 0 !important;
 }
 
-.check {
+.form__check {
   width: 12px;
   height: 11px;
   border: 2px solid black;
