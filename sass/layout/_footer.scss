@@ -15,11 +15,11 @@
     margin-top: 20px;
 }
 
-.footer-type li:not(:last-child) {
+.footer__type li:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.footer-adress {
+.footer__adress {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -28,7 +28,7 @@
     align-items: center;
 }
 
-.footer-link {
+.footer__link {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     font-size: 14px;

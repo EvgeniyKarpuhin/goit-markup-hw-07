@@ -267,11 +267,11 @@ ul {
   fill: currentColor;
 }
 
-.adress-social {
+.footer__social {
   margin-left: 70px;
 }
 
-.adress-social h4 {
+.footer__social h4 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -635,11 +635,11 @@ ul {
   margin-top: 20px;
 }
 
-.footer-type li:not(:last-child) {
+.footer__type li:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-adress {
+.footer__adress {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -648,7 +648,7 @@ ul {
   align-items: center;
 }
 
-.footer-link {
+.footer__link {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 14px;
