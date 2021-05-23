@@ -798,7 +798,7 @@ ul {
   position: relative;
 }
 
-.form-input {
+.form__input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -807,12 +807,12 @@ ul {
   padding-left: 36px;
 }
 
-.block-item:focus-within .form-input {
+.form__block-item:focus-within .form__input {
   border: 1px solid #2196F3;
   outline: none;
 }
 
-.form-name {
+.form__name-svg {
   position: absolute;
   display: block;
   transform: translateY(-50%);
@@ -826,11 +826,11 @@ ul {
   margin-left: 12px;
 }
 
-.block-item:focus-within .form-name {
+.form__block-item:focus-within .form__name-svg {
   fill: #2196F3;
 }
 
-.form-area {
+.form__area {
   font-family: 'Roboto';
   font-style: normal;
   font-size: 14px;
@@ -846,7 +846,7 @@ ul {
   resize: none;
 }
 
-.form-area:focus-within {
+.form__area:focus-within {
   border: 1px solid #2196F3;
   outline: none;
 }
