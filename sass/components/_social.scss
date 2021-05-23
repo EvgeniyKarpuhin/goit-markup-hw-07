@@ -46,7 +46,7 @@
     margin-right: 10px;
 }
 
-.social-size-footer {
+.footer__social-size {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-size-footer:hover,
-.social-size-footer:focus {
+.footer__social-size:hover,
+.footer__social-size:focus {
     background-color: #2196F3
 }
