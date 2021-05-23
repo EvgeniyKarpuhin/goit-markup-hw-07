@@ -1,17 +1,17 @@
-.form-style {
+.form {
     display: flex;
     flex-direction: column;
     padding: 0 40px 40px 40px;
     text-align: start;
 }
 
-.block-item {
+.form__block-item {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
-.form-name-type {
+.form__name {
     font-style: normal;
     font-size: 12px;
     line-height: 1.17;
@@ -20,11 +20,11 @@
     margin-bottom: 4px;
 }
 
-.form-label {
+.form__label {
     margin-bottom: 10px;
 }
 
-.block-item-form {
+.form__block-item {
     position: relative;
 }
 
