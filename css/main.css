@@ -424,7 +424,7 @@ ul {
   justify-content: space-between;
 }
 
-.main-list {
+.pictures__list {
   position: relative;
   height: 294px;
 }
@@ -457,7 +457,7 @@ ul {
   margin-bottom: 50px;
 }
 
-.comp-text {
+.pictures__text {
   position: absolute;
   font-style: normal;
   font-weight: 700;
@@ -473,14 +473,8 @@ ul {
   width: 100%;
 }
 
-.comp-text p {
+.pictures__text p {
   color: #FFFFFF;
-}
-
-.main-type-team {
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-between;
 }
 
 .text {
