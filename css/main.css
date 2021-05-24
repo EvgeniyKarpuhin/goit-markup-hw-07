@@ -581,13 +581,13 @@ ul {
   padding-top: 94px;
 }
 
-.our-clients {
+.clients__type {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.clients-href {
+.clients__href {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -602,8 +602,8 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-href:hover,
-.clients-href:focus {
+.clients__href:hover,
+.clients__href:focus {
   color: #2196F3;
   border: 1px solid #2196F3;
 }
