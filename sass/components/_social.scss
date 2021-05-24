@@ -5,7 +5,7 @@
     
 }
 
-.social-size {
+.foot__social-size {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,8 +18,8 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-size:hover,
-.social-size:focus {
+.foot__social-size:hover,
+.foot__social-size:focus {
     color: white;
     background-color: #2196F3
 }
