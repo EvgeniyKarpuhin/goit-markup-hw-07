@@ -75,6 +75,24 @@ ul {
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
 .head {
   background: white;
 }
@@ -166,7 +184,10 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.head__website:hover,
+.head__website:hover {
+  color: #2196F3;
+}
+
 .head__website:focus {
   color: #2196F3;
 }
@@ -202,7 +223,10 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.head__link:hover,
+.head__link:hover {
+  color: #2196F3;
+}
+
 .head__link:focus {
   color: #2196F3;
 }
@@ -231,7 +255,11 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.foot__social-size:hover,
+.foot__social-size:hover {
+  color: white;
+  background-color: #2196F3;
+}
+
 .foot__social-size:focus {
   color: white;
   background-color: #2196F3;
@@ -273,7 +301,10 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__social-size:hover,
+.footer__social-size:hover {
+  background-color: #2196F3;
+}
+
 .footer__social-size:focus {
   background-color: #2196F3;
 }
@@ -325,7 +356,12 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filters__btn:hover,
+.filters__btn:hover {
+  background: #2196F3;
+  color: white;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .filters__btn:focus {
   background: #2196F3;
   color: white;
@@ -378,10 +414,11 @@ ul {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/social/Img-logo-head.png);
   background-repeat: no-repeat;
   text-align: center;
-  padding: 200px 0;
+  padding: 200px 15px;
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  background-size: cover;
 }
 
 .info {
@@ -516,14 +553,12 @@ ul {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.filters__card-shadow:hover,
-.filters__card-shadow:focus {
+.filters__card-shadow:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.filters__card-shadow:hover .filters__position {
-  opacity: 0.9;
-  transform: translateY(0);
+.filters__card-shadow:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .filters__opacity {
@@ -546,6 +581,11 @@ ul {
   background-color: rgba(33, 150, 243, 0.9);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
+}
+
+.filters__card-shadow:hover .filters__position {
+  opacity: 0.9;
+  transform: translateY(0);
 }
 
 .filters__position p {
@@ -602,7 +642,11 @@ ul {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients__href:hover,
+.clients__href:hover {
+  color: #2196F3;
+  border: 1px solid #2196F3;
+}
+
 .clients__href:focus {
   color: #2196F3;
   border: 1px solid #2196F3;
@@ -676,16 +720,16 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer__mail-type:focus-within {
+  outline: none;
+}
+
 .footer__mail-type::placeholder {
   font-style: normal;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer__mail-type:focus-within {
-  outline: none;
 }
 
 .modal-window {
@@ -862,16 +906,6 @@ ul {
   color: #2196F3;
 }
 
-.form__checkbox:checked + .form__check {
-  background-image: url(../images/social/svg/vector.svg);
-  background-repeat: no-repeat;
-  background-color: #2196F3;
-  background-position: center;
-  border-color: #2196F3;
-  background-size: contain;
-  background-origin: border-box;
-}
-
 .checkbox-hidden {
   position: absolute !important;
   width: 1px !important;
@@ -889,5 +923,15 @@ ul {
   position: relative;
   display: inline-block;
   border-radius: 2px;
+}
+
+.form__checkbox:checked + .form__check {
+  background-image: url(../images/social/svg/vector.svg);
+  background-repeat: no-repeat;
+  background-color: #2196F3;
+  background-position: center;
+  border-color: #2196F3;
+  background-size: contain;
+  background-origin: border-box;
 }
 /*# sourceMappingURL=main.css.map */
